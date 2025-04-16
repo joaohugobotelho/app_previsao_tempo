@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="nublado.png" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Previsão do Tempo</h1>
+
+      <input type="text" id="cityInput" placeholder="Digite a cidade..." />
+
+      
+      <button id="searchBtn">Buscar</button>
+
+      
+      <div id="weatherResult" class="hidden">
+        <h2 id="cityName"></h2>
+        <p><strong>Temperatura:</strong> <span id="temperature"></span>°C</p>
+        <p><strong>Condição:</strong> <span id="condition"></span></p>
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
